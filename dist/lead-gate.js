@@ -29,7 +29,20 @@
       button.disabled = false;
       return;
     }
-    unlocked = true;
+        unlocked = true;
+
+    // Track Lead only after successful form submission.
+    // Tracking failure must not stop the video from unlocking.
+    try {
+      if (typeof window.fbq === 'function') {
+        window.fbq('track', 'Lead', {
+          content_name: 'Whitestone VSL Registration'
+        });
+      }
+    } catch (trackingError) {
+      console.warn('Meta Lead tracking could not run.');
+    }
+
     form.reset();
     dialog.close();
     document.body.classList.remove('lead-locked');
