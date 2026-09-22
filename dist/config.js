@@ -29,4 +29,4 @@ window.PAGE_CONTENT = {
 
 // AFTER deploying Cloudflare: replace the empty string with your Worker URL + /leads.
 // Example format ONLY: https://whitestone-leads.YOUR-SUBDOMAIN.workers.dev/leads
-window.LEAD_API_URL = '';
+window.LEAD_API_URL = 'https://whitestone-leads.whitestonegroup08.workers.dev/leads';
