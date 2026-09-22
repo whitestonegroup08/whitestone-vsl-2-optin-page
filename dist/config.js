@@ -16,7 +16,7 @@ window.PAGE_CONTENT = {
  'We’ll review your application and contact you if you are qualified.',
  'If selected and you miss your scheduled slot, you’ll be permanently blacklisted.',
  '20 Members will be accepted every 2 months.',
- 'Millionaire Mastermind will start on 01/Oct/2026.',
+ 'Millionaire Conversion Matrix Event will start on 01/Oct/2026.',
  'Only 3 slots left.'
  ],
  email: 'support@whitestonegroup.in',
