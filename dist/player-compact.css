@@ -1,0 +1,10 @@
+/* Keep the existing Wistia controls together at the video’s bottom-right edge. */
+.w-bottom-bar {
+  left: auto !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 280px !important;
+  max-width: 100% !important;
+  transform: scale(.65) !important;
+  transform-origin: bottom right !important;
+}
