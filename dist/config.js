@@ -6,7 +6,7 @@ window.PAGE_CONTENT = {
  headlineTwo: 'To Make 10 Lakh/Month With Proven System',
  guarantee: 'Money-Back Guarantee: 100% Risk-Free',
  videoProvider: 'wistia',
- wistiaMediaId: 'xcdzlwa1ha',
+ wistiaMediaId: 'm7cpijapcc',
  videoUrl: 'https://fast.wistia.com/embed/xcdzlwa1ha',
  bookingText: 'BOOK A CALL',
  bookingUrl: 'https://pages.razorpay.com/auditcallws',
